@@ -12,7 +12,10 @@ const CoffeeDetails = () => {
     
   return (
     <div >
-      <div className="  min-h-screen bg-[#f4f3f0] ">
+      <div className="  h-auto bg-[#f4f3f0] "
+      style={{
+        backgroundImage: "url('https://i.ibb.co.com/rGz37Xw8/11.png')",
+      }}>
         <div className="my-4 w-40 pt-3 pl-2">
           <NavLink
             className="text-2xl  rounded flex hover:bg-[#E3B577]  text-black "
@@ -21,7 +24,7 @@ const CoffeeDetails = () => {
             <IoArrowBackSharp className="mt-1"></IoArrowBackSharp> Back to home
           </NavLink>
         </div>
-        <div className="flex flex-1 items-center justify-center gap-10 p-1 bg-[#fdfcf9] rounded-lg shadow-md max-w-4xl mx-auto">
+        <div className="flex flex-1 items-center justify-center gap-10 p-10 bg-[#fdfcf9] rounded-lg shadow-md max-w-4xl mx-auto">
           {/* Image section */}
           <div>
             <img src={photo} alt={name} className="w-60 object-contain" />
