@@ -15,7 +15,7 @@ const AddCoffee = () => {
         
 
         // send data to backend 
-        fetch('http://localhost:3000/coffees',{
+        fetch('https://coffee-store-server-smoky-two.vercel.app/coffees',{
             method:'POST',
             headers:{
                 'content-type':'application/json'
